@@ -1,28 +1,40 @@
-name: apixal
 favicon: null
-layout_spectrum: 0.8216793213505298
-typography_spectrum: 0.8300301164854318
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: apixal
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 1
+  brandStrength: 0.434177816612646
+  lightness: 0.5010741
   brandColors:
     - '#A690A4'
     - '#B68F9D'
     - '#C8ACAB'
     - '#FBB9BF'
     - '#E376B7'
-  brandStrength: 0.434177816612646
-  lightness: 0.3780715176835656
-  saturation: 0.667760920478031
-  rhythmicContrast: 0.7289538690820336
-purpose: []
+  rhythmicContrast: 0.7277121
+typography_spectrum: 0.5612245
+layout_spectrum: 0
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
